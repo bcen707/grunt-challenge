@@ -1,4 +1,3 @@
-"use strict";
 
 module.exports = function(grunt) {
 
@@ -17,7 +16,7 @@ module.exports = function(grunt) {
 	},
 	jshint: {
 	// define files to lint	
-      files: ['Gruntfile.js', 'src/**/*.js', 'test/**/*.js'],
+      files: ['./js/signup.js', './js/us-states.js' ],
       options: {
         globals: {
           jQuery: true,
